@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dine Booking</title>
+    </head>
+    <body>
+        <h1>Dine Booking</h1>
+        <form>
+            <label>Visitors Name : </label><input type="text" value="" maxlength="20"><br>
+            <label>Number of members : </label><input type="number" value="" max="99"><br>
+            <label>Contact No : </label><input type="number" value=""><br>
+            <label>Email : </label><input type="email" required><br>
+            <label>Type of Food : </label>
+            <input type="checkbox" id="item0" name="food"checked="checked">
+            <label for="item0">South Indian</label>
+            <input type="checkbox" id="item1" name="food">
+            <label for="item1">North Indian</label>
+            <input type="checkbox" id="item2"name="food">
+            <label for="item2">Chinese</label>
+            <input type="checkbox" id="item3"name="food">
+            <label for="item3">Western</label>
+            <br>
+            <label id="id">Room Status : </label>
+            <input type="radio" id="ac" for="id" name="status" checked="checked">
+            <label for="id">AC</label>
+            <input type="radio" id="non-ac" for="id" name="status">
+            <label for="id">Non-AC</label>
+            <br>
+            <label>Venue Preference : </label>
+            <select >
+                <option selected></option>
+                <option>Arena</option>
+                <option>Fiesta</option>
+                <option>Vista</option>
+                <option>Mythri</option>
+                <option>Magna</option>
+                <option>Oasis</option>
+                <option disabled>Amoeba</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Book">nbsp;nbsp;
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
